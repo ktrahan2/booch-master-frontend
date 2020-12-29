@@ -1,0 +1,19 @@
+#home-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    max-width: 100%;
+    height: 30vh;
+}
+
+#home-main {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    height: 70vh;
+}
+
+#app-description {
+    padding: 10px
+}
