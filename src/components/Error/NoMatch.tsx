@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Home() {
+export default function NoMatch() {
     return (
         <div>
-            hey
+            Error Page Can't Be Found!
         </div>
     )
 }
