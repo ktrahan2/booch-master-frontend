@@ -15,9 +15,12 @@ body {
 }
 
 .link {
-    border: solid black 1px;
+    border: solid black .5px;
     border-radius: 5px;
     padding: 5px;
     text-decoration: none;
+    color: #05447a;
 }
+
+
 
