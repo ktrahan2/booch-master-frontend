@@ -10,6 +10,7 @@ export default function Home( { match }: RouteComponentProps ) {
                 <img className="logo" src={Logo} alt="Booch Master Logo"/>
             </header>
             <main id="home-main">
+                <div className="background"></div>
                 <p id="app-description">
                     Welcome to Booch Master. A place to store all of your fermentation schedules and recipes!
                 </p>

@@ -9,11 +9,30 @@
 
 #home-main {
     display: flex;
-    justify-content: center;
-    align-content: flex-start;
+    justify-content: flex-start;
+    align-content: center;
+    flex-flow: column wrap;
     height: 70vh;
+    position: relative;
 }
 
 #app-description {
-    padding: 10px
+    padding: 10px;
+    height: 10%;
+    opacity: 1;
+    position: relative;
 }
+
+.background {
+    background-image: url('https://image.shutterstock.com/image-photo/kombucha-cider-fermented-drink-on-260nw-1445543942.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+    opacity: .65;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
