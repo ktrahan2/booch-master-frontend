@@ -11,4 +11,13 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-color: #e6f3fe73;
 }
+
+.link {
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
