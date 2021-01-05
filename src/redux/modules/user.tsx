@@ -3,17 +3,18 @@ export function typedAction<T extends string, P extends any>(
   type: T,
   payload: P
 ): { type: T; payload: P };
-export function typedAction(type: string, payload?: any) {
+export function typedAction(type: string, payload?: string | null ) {
   return { type, payload };
 }
 
 type UserState = {
     username: string | null;
+    id: string | null;
 }
 
-const initialState: UserState = { username: null };
+const initialState: UserState = { username: null, id: null };
 
-export const login = ( username: string ) => {
+export const login = ( username: string, id?: string ) => {
     return typedAction('user/LOGIN', username);
 };
 
@@ -29,9 +30,9 @@ export function userReducer(
 ): UserState {
     switch (action.type) {
         case 'user/LOGIN':
-            return { username: action.payload };
+            return { username: action.payload, id: action.payload };
         case 'user/LOGOUT':
-            return { username: null };
+            return { username: null, id: null };
         default: 
             return state; 
     }

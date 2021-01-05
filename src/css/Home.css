@@ -46,9 +46,23 @@
     border-radius: 1000px;
 }
 
-#sign-in-link {
+#sign-up-link {
     padding: 0 5px;
     font-size: 18px;
     color: #05447a;
+}
+
+#sign-up-form {
+    border: solid black 1px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.form-input {
+    padding: 5px;
 }
 
